@@ -16,11 +16,10 @@ body {
   line-height: 1.5;
   color: rgb(73, 72, 72);
   font-size: 1.6rem; /* 16px */
-  font-family:
-    "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans",
-    Meiryo, sans-serif;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
   text-align: center;
-  background-image: url(../img/topimg.jpeg); /*★自分で画像を設定すること。*/
+  background-image: url(../img/that\ luang.jpg); /*★自分で画像を設定すること。*/
   background-size: cover;
 }
 
@@ -52,9 +51,7 @@ header {
   z-index: 10;
 }
 h1 {
-  font:
-    2em Rajdhani,
-    "Noto Sans JP";
+  font: 2em Rajdhani, "Noto Sans JP";
   color: rgb(181, 242, 252);
   /* background-image: radial-gradient(
     circle 248px at center,
