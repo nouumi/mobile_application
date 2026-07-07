@@ -19,7 +19,9 @@ body {
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
     "Hiragino Sans", Meiryo, sans-serif;
   text-align: center;
-  background-image: url(../img/that\ luang.jpg); /*★自分で画像を設定すること。*/
+  background-image: url(../img/nahida.jpg); /*★自分で画像を設定すること。*/
+  background-repeat: no-repeat;
+  background-position: 75% 0%;
   background-size: cover;
 }
 
@@ -52,14 +54,14 @@ header {
 }
 h1 {
   font: 2em Rajdhani, "Noto Sans JP";
-  color: rgb(181, 242, 252);
+  color: rgb(255, 255, 255);
   /* background-image: radial-gradient(
     circle 248px at center,
     #16d9e3 0%,
     #30c7ec 47%,
     #46aef7 100%
   ); */
-  background: linear-gradient(135deg, #a80006, #ff4e50, #f9d423);
+  background: linear-gradient(135deg, #ffffff, #6db85e, #ffffff);
 }
 
 h2 {
@@ -185,10 +187,11 @@ footer > p {
 /* mobileのときのスタイル */
 /*******************************************************/
 @media screen and (max-width: 480px) {
-  /* body{
-        background-size: auto 900px;
-    } */
-  h1 {
+  body {
+    background-position: 30% 0%;
+    background-size: auto 1050px;
+  }
+  */ h1 {
     font-size: 1.5em;
   }
 }
